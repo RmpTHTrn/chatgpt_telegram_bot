@@ -12,8 +12,9 @@ with open(config_dir / "config.yml", 'r') as f:
 config_env = dotenv.dotenv_values(config_dir / "config.env")
 
 # config parameters
-telegram_token = config_yaml["telegram_token"]
-openai_api_key = config_yaml["openai_api_key"]
+telegram_token = config_yaml["HTTP API:
+6009125878:AAHLFBqxEWENlT725AksrA_YSiv4LcAvECE"]
+openai_api_key = config_yaml["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"]
 use_chatgpt_api = config_yaml.get("use_chatgpt_api", True)
 allowed_telegram_usernames = config_yaml["allowed_telegram_usernames"]
 new_dialog_timeout = config_yaml["new_dialog_timeout"]
